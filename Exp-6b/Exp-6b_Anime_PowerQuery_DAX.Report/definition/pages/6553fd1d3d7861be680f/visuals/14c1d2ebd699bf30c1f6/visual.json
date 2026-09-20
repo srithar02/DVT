@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "14c1d2ebd699bf30c1f6",
+  "position": {
+    "x": 940,
+    "y": 5,
+    "z": 1,
+    "height": 50,
+    "width": 150,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "anime"
+                    }
+                  },
+                  "Property": "type"
+                }
+              },
+              "queryRef": "anime.type",
+              "nativeQueryRef": "type",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

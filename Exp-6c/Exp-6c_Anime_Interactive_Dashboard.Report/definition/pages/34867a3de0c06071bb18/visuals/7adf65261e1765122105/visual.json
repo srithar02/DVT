@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "7adf65261e1765122105",
+  "position": {
+    "x": 1028.0,
+    "y": 60,
+    "z": 8,
+    "height": 110,
+    "width": 232.0,
+    "tabOrder": 8
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "anime"
+                    }
+                  },
+                  "Property": "Currently Airing"
+                }
+              },
+              "queryRef": "anime.Currently Airing",
+              "nativeQueryRef": "Currently Airing"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

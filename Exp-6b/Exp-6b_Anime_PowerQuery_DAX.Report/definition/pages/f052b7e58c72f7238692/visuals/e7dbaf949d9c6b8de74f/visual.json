@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "e7dbaf949d9c6b8de74f",
+  "position": {
+    "x": 776.0,
+    "y": 60,
+    "z": 4,
+    "height": 110,
+    "width": 232.0,
+    "tabOrder": 4
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "anime"
+                    }
+                  },
+                  "Property": "Total Runtime Hours"
+                }
+              },
+              "queryRef": "anime.Total Runtime Hours",
+              "nativeQueryRef": "Total Runtime Hours"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

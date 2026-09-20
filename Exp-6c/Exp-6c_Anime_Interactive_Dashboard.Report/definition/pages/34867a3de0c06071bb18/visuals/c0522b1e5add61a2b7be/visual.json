@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "c0522b1e5add61a2b7be",
+  "position": {
+    "x": 20.0,
+    "y": 60,
+    "z": 4,
+    "height": 110,
+    "width": 232.0,
+    "tabOrder": 4
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "anime"
+                    }
+                  },
+                  "Property": "Total Titles"
+                }
+              },
+              "queryRef": "anime.Total Titles",
+              "nativeQueryRef": "Total Titles"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

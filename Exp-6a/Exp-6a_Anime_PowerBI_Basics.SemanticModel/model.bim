@@ -1,0 +1,429 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1600,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "anime",
+        "lineageTag": "ca8cc754-d218-727e-44b3-0275c18733a2",
+        "columns": [
+          {
+            "name": "anime_id",
+            "dataType": "int64",
+            "sourceColumn": "anime_id",
+            "lineageTag": "98dd6d2f-9ba0-592b-790f-971857cd8f38",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0"
+          },
+          {
+            "name": "title",
+            "dataType": "string",
+            "sourceColumn": "title",
+            "lineageTag": "5870049f-ce6d-23a2-e95c-ac1adf60f41d",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "type",
+            "dataType": "string",
+            "sourceColumn": "type",
+            "lineageTag": "cc4b3274-16e1-2989-4c5d-49e4405cd602",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status",
+            "lineageTag": "34846e65-b08e-fdb4-bbca-e6e85725f7d3",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "episodes",
+            "dataType": "int64",
+            "sourceColumn": "episodes",
+            "lineageTag": "2cb2124e-d9ce-be60-9c2b-ddfddf713f40",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0"
+          },
+          {
+            "name": "duration_min",
+            "dataType": "double",
+            "sourceColumn": "duration_min",
+            "lineageTag": "607732d2-c52b-b517-1db3-9a745c19785a",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0.0"
+          },
+          {
+            "name": "total_hours",
+            "dataType": "double",
+            "sourceColumn": "total_hours",
+            "lineageTag": "9911414c-42a4-5b36-3564-b7f005250fe9",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0.0"
+          },
+          {
+            "name": "start_date",
+            "dataType": "dateTime",
+            "sourceColumn": "start_date",
+            "lineageTag": "12decb5a-eedf-d1d5-5d8e-e52be1e2eaa3",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "formatString": "dd-mm-yyyy"
+          },
+          {
+            "name": "end_date",
+            "dataType": "dateTime",
+            "sourceColumn": "end_date",
+            "lineageTag": "84bcc87a-c770-f2b9-0a2b-c10694801a36",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "formatString": "dd-mm-yyyy"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "lineageTag": "83a454da-00b5-fb2d-c7af-fc23289d2696",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0"
+          },
+          {
+            "name": "decade",
+            "dataType": "string",
+            "sourceColumn": "decade",
+            "lineageTag": "05ca99af-3f69-1d90-355e-f85df201a628",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "season",
+            "dataType": "string",
+            "sourceColumn": "season",
+            "lineageTag": "955716f9-cb13-0a3b-9140-6835e18101a7",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "score",
+            "dataType": "double",
+            "sourceColumn": "score",
+            "lineageTag": "295b2704-7bf1-e64f-e357-ac9dcec09655",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0.00"
+          },
+          {
+            "name": "members_scored",
+            "dataType": "int64",
+            "sourceColumn": "members_scored",
+            "lineageTag": "6fcb745a-0b43-1920-6bd7-c84cfa57f2b7",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0"
+          },
+          {
+            "name": "rank",
+            "dataType": "int64",
+            "sourceColumn": "rank",
+            "lineageTag": "66e9e9c8-0fda-ea45-69e6-4ecca6a68878",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0"
+          },
+          {
+            "name": "age_rating",
+            "dataType": "string",
+            "sourceColumn": "age_rating",
+            "lineageTag": "e039b8f6-3ece-e66f-d8ff-37c7dcd9f76a",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "main_studio",
+            "dataType": "string",
+            "sourceColumn": "main_studio",
+            "lineageTag": "f253038f-2097-60af-0604-4e101a2b8570",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "studio_group",
+            "dataType": "string",
+            "sourceColumn": "studio_group",
+            "lineageTag": "20c46525-6c7f-5053-e9b2-a5db51823ed1",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "genre_count",
+            "dataType": "int64",
+            "sourceColumn": "genre_count",
+            "lineageTag": "811495e5-a170-faa6-ae02-947d29afe39f",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0"
+          },
+          {
+            "name": "primary_genre",
+            "dataType": "string",
+            "sourceColumn": "primary_genre",
+            "lineageTag": "f519a8f2-eb2f-a063-f9c0-3ad1d471c2f3",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "score_band",
+            "dataType": "string",
+            "sourceColumn": "score_band",
+            "lineageTag": "c9688f91-fb02-3ae9-c8da-5139bf0d2669",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "popularity_tier",
+            "dataType": "string",
+            "sourceColumn": "popularity_tier",
+            "lineageTag": "7387b719-7b6e-dd52-9bac-67d5bde6f76c",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "is_scored",
+            "dataType": "string",
+            "sourceColumn": "is_scored",
+            "lineageTag": "fbde60c3-3c85-3fa0-0717-43108ad092f7",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "measures": [
+          {
+            "name": "Total Titles",
+            "expression": "COUNTROWS(anime)",
+            "formatString": "#,0",
+            "lineageTag": "a0295d3d-3361-40f6-eca4-9b4d98f1e787"
+          },
+          {
+            "name": "Scored Titles",
+            "expression": "CALCULATE(COUNTROWS(anime), NOT ISBLANK(anime[score]))",
+            "formatString": "#,0",
+            "lineageTag": "a46e043d-5b42-6091-2149-7ab82506c063"
+          },
+          {
+            "name": "Average Score",
+            "expression": "AVERAGE(anime[score])",
+            "formatString": "0.00",
+            "lineageTag": "2114a066-0657-e815-335c-7dfd2d41c50f"
+          },
+          {
+            "name": "Highest Score",
+            "expression": "MAX(anime[score])",
+            "formatString": "0.00",
+            "lineageTag": "f3b4ec1d-0028-cb33-108d-f4c136d5299c"
+          },
+          {
+            "name": "Total Members",
+            "expression": "SUM(anime[members_scored])",
+            "formatString": "#,0",
+            "lineageTag": "433c6843-53b9-53e0-5e5d-0938a517877c"
+          },
+          {
+            "name": "High Rated Titles",
+            "expression": "CALCULATE(COUNTROWS(anime), anime[score] >= 8)",
+            "formatString": "#,0",
+            "lineageTag": "f11ef784-f14e-8d60-78ce-4d3edae8e67b"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "anime",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"anime_clean.csv\"), [Delimiter=\",\", Columns=23, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{\"anime_id\", Int64.Type}, {\"title\", type text}, {\"type\", type text}, {\"status\", type text}, {\"episodes\", Int64.Type}, {\"duration_min\", type number}, {\"total_hours\", type number}, {\"start_date\", type date}, {\"end_date\", type date}, {\"year\", Int64.Type}, {\"decade\", type text}, {\"season\", type text}, {\"score\", type number}, {\"members_scored\", Int64.Type}, {\"rank\", Int64.Type}, {\"age_rating\", type text}, {\"main_studio\", type text}, {\"studio_group\", type text}, {\"genre_count\", Int64.Type}, {\"primary_genre\", type text}, {\"score_band\", type text}, {\"popularity_tier\", type text}, {\"is_scored\", type text}}, \"en-US\")",
+                "in",
+                "    ChangedType"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "expressions": [
+      {
+        "name": "DataFolder",
+        "kind": "m",
+        "expression": "\"D:\\DVT\\Exp-6a\\\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "lineageTag": "eca07335-a33c-5aeb-5e1b-c7c98b4b9d80",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DataFolder\", \"anime\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.157.151.0"
+      }
+    ]
+  }
+}

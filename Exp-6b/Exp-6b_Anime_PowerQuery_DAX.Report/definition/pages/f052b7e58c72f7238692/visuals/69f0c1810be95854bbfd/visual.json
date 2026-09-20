@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "69f0c1810be95854bbfd",
+  "position": {
+    "x": 20,
+    "y": 5,
+    "z": 0,
+    "height": 50,
+    "width": 900,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Anime Catalogue - Power Query Cleaned Data",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "20pt",
+                      "color": "#1F3864"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "4c0a4b8f56a2a5358b67",
+  "position": {
+    "x": 272.0,
+    "y": 60,
+    "z": 5,
+    "height": 110,
+    "width": 232.0,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "anime"
+                    }
+                  },
+                  "Property": "Weighted Avg Score"
+                }
+              },
+              "queryRef": "anime.Weighted Avg Score",
+              "nativeQueryRef": "Weighted Avg Score"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

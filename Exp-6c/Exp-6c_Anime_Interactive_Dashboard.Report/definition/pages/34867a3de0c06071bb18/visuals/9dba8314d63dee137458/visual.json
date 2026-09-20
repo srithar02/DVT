@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "9dba8314d63dee137458",
+  "position": {
+    "x": 776.0,
+    "y": 60,
+    "z": 7,
+    "height": 110,
+    "width": 232.0,
+    "tabOrder": 7
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "anime"
+                    }
+                  },
+                  "Property": "High Rated Titles"
+                }
+              },
+              "queryRef": "anime.High Rated Titles",
+              "nativeQueryRef": "High Rated Titles"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
